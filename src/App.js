@@ -1,19 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
+import Dictionary from "./Dictionary";
 
 function App() {
   return (
     <div className="App">
+      <div className='container'>
       <header className="App-header">
-    
-      <h1> Dictionary </h1>
-      <h2> Enter a word below to discover more about it </h2>
-<search> 
-Enter word here
-</search> <submit>search</submit>
-        <button class="btn btn-danger">hello </button>
-      </header>
+    <main>
+      <Dictionary />
+        </main>
+        </header>
+        <footer>
+      Coded by Christine Jones
+    </footer>
     </div>
+    </div>
+    
   );
 }
 
