@@ -17,12 +17,12 @@ return (
         <strong>   Example; </strong>
        <em> {definition.example}</em>
        <br />
-       {props.meaning.synonyms.map(function(definition, index)
-       <Synonyms synonyms={meaning.synonyms} />
+       
+       <Synonyms synonyms={definitions.synonyms} />
         </p> 
         </div>
 );
-    })}}
+    })}
 </div>
 
 );}
