@@ -3,6 +3,11 @@ form {
     margin: 30px
 }
 
+.Dictionary h1 {
+    padding-left: 30px;
+    padding-top: 10px
+}
+
 .Dictionary section {
     background-color: white;
     border-radius: 10px;
@@ -21,4 +26,9 @@ form {
     font-size: 13px;
     margin-top: 10px;
     padding-left: 30px;
+}
+
+.Dictionary h3 {
+    font-size: 20px;
+    font-weight: bold;
 }
