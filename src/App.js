@@ -11,7 +11,7 @@ function App() {
         </main>
         </header>
         <footer>
-      Coded by Christine Jones
+      Coded by <a href='https://www.itsmechrissyj.co.uk'>  Christine Jones</a> open source on <a href='https://github.com/itsmechrissyj/react-dictionary'> Github </a>
     </footer>
     </div>
     </div>
