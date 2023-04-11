@@ -2,3 +2,23 @@ form {
 
     margin: 30px
 }
+
+.Dictionary section {
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 5px 5px 5px 5px rgba(191, 178, 178, 0.7);
+}
+
+.Dictionary input {
+    width: 100%;
+    padding: 12px 6px ;
+    border: 1px solid #ddd;
+}
+
+.Dictionary .hint {
+    font-size: 13px;
+    margin-top: 10px;
+    padding-left: 30px;
+}

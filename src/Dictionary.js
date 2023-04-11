@@ -23,9 +23,15 @@ setKeyword(event.target.value);
 }
     
     return (<div className="Dictionary"> 
+    <section>
     <form onSubmit={search}>
         <input type="search" onChange={handleKeywordChange}/>
         </form>
+        <div className="hint">
+Suggested words : Sunset, Wine, Forest...
+
+        </div>
+        </section>
     <Results results={results} />
     </div>);
 }
